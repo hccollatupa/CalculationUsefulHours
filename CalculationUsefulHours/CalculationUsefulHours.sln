@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationUsefulHours", "CalculationUsefulHours\CalculationUsefulHours.csproj", "{4EFCE3D1-1F00-46C2-9A39-FAC135809142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationUsefulHours.Test", "CalculationUsefulHours.Test\CalculationUsefulHours.Test.csproj", "{789FF0BE-3738-41E4-A7E6-0D82D580BBE0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EFCE3D1-1F00-46C2-9A39-FAC135809142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFCE3D1-1F00-46C2-9A39-FAC135809142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFCE3D1-1F00-46C2-9A39-FAC135809142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFCE3D1-1F00-46C2-9A39-FAC135809142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{789FF0BE-3738-41E4-A7E6-0D82D580BBE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789FF0BE-3738-41E4-A7E6-0D82D580BBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789FF0BE-3738-41E4-A7E6-0D82D580BBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789FF0BE-3738-41E4-A7E6-0D82D580BBE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
